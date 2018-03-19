@@ -1,0 +1,41 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("inicio2.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.faded {
+  color: rgba(0, 0, 0, 0.8); 
+}
+
+header.startup hr {
+  margin-top: 30px;
+  margin-bottom: 200px; 
+}
+
+header.startup h1 {
+font-family: Monoton;
+  font-size: 2rem; 
+}
+
+p{
+	font-family: "Nova+Round"
+}
+
+.btn {
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 250px;
+  font-family: Permanent+Marker,'Montserrat', sans-serif;
+}
+
+.btn-danger:hover {
+	background-color: green;
+}
